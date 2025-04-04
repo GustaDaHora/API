@@ -40,7 +40,7 @@ Start the server:
 npm start
 ```
 
-The API will be running on http://localhost:3000 by default (port may vary based on server.js configuration).
+The API will be running on http://localhost:3333 by default (port may vary based on server.js configuration).
 
 Available Scripts
 ```
@@ -79,7 +79,7 @@ npx knex migrate:make migration_name
 Configuration
 Database: SQLite (configured in knexfile.js)
 
-Port: Defined in src/server.js (default: 3000)
+Port: Defined in src/server.js (default: 3333)
 
 Add environment variables as needed in a .env file
 
